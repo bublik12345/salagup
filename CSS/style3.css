@@ -1,0 +1,31 @@
+
+body{
+    background-color: #FFFAF4;
+}
+
+.block-error>img{
+    width: 50vh;
+}
+.error-text{
+    color: #463830;
+    font-family: "Montserrat";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.error-text>h1{
+    font-size: 180px;
+    margin-bottom: 0;
+}
+.error-text>p{
+    font-size: 25px;
+}
+.block-error{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 5vh 10vw;
+
+}

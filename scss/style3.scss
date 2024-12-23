@@ -1,0 +1,32 @@
+$color_1: #463830;
+$font-family_1: "Montserrat";
+$background-color_1: #FFFAF4;
+
+body {
+	background-color: $background-color_1;
+}
+.block-error {
+	>img {
+		width: 50vh;
+	}
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	padding: 5vh 10vw;
+}
+.error-text {
+	color: $color_1;
+	font-family: $font-family_1;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	>h1 {
+		font-size: 180px;
+		margin-bottom: 0;
+	}
+	>p {
+		font-size: 25px;
+	}
+}

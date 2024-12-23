@@ -1655,3 +1655,9 @@ body {
 .element-short-info, .block-6-short, .text9-short-info-2{
   display: none;
 }
+
+.button-buy-text>a{
+  color: #DEEDD9;
+  text-decoration: none;
+  padding-left: 5px;
+}

@@ -6,7 +6,74 @@ body {
   font-family: "Montserrat";
   color: #463830;
 }
-
+@media (min-width:1492px)
+{
+    .header-line {
+        justify-content: space-around;
+    }
+    .block-2{
+        margin-top:442px;
+        justify-content: center;
+    }
+    .block3-title-1 {
+        justify-content: center;
+        padding-left: 0;
+    }
+    .block3-line {
+        padding-left: 0;
+        justify-content: center;
+    }
+    .block3-grid{
+        grid-template-rows: repeat(3,30vh);
+    }
+    .rectangle {
+        width: 930px;
+        height: 860px;
+        border-radius: 240px;
+        top: 1790px;
+    }
+    .block3-title-2 {
+    padding-top: 0;
+    margin-top: 250px;
+    }
+    .block-buy {
+        margin: 82px 200px;
+    }
+    .block-4-line-text {
+        padding-left: 0;
+        justify-content: center;
+    }
+    .block-5-line {
+        justify-content: center;
+    }
+    .cards{
+        justify-content: center;
+    }
+    .block-6-line {
+        justify-content: center;
+    }
+    .video {
+        margin: 90px 300px;
+    }
+    .infocards-line {
+      justify-content: center;
+    }
+    .infocard2 {
+        display: none;
+    }
+    .block-7{
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 0px 100px;
+        margin-right: 10vw;
+    }
+    .section {
+        margin: 110px 200px;
+    }
+    .footer-line-info{
+        justify-content: space-between;
+    }
+}
 
 @media (max-width: 1490px) {
     .rectangle {
